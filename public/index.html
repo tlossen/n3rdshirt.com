@@ -9,6 +9,10 @@
     font-family: 'Delius', cursive;
     font-size: 48;
   }
+  h2 {
+    font-family: 'Delius', cursive;
+    font-size: 24;
+  }
   body {
     background: url(/img/shirt_001.jpg) no-repeat;
     font-family: 'Arimo', sans-serif;
@@ -44,42 +48,31 @@
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="5E599C8XUEB2W">
-<table>
-  <tr>
-    <td><input type="hidden" name="on1" value="type">type</td>
-    <td>
-      <select name="os1">
-        <option value="female">female </option>
-        <option value="male">male </option>
-      </select>
-    </td>
-  </tr>
-  <tr>
-    <td><input type="hidden" name="on0" value="size">size</td>
-    <td>
-      <select name="os0">
-        <option value="S">S </option>
-        <option value="M">M </option>
-        <option value="L">L </option>
-        <option value="XL">XL </option>
-        <option value="XXL">XXL </option>
-      </select>
-    </td>
-  </tr>
-  <tr>
-    <td>price</td>
-    <td><b>12.50 Euro</b></td>
-  </tr>
-</table>
-<br><br>
+<input type="hidden" name="on1" value="type">
+<select name="os1">
+  <option value="female">female </option>
+  <option value="male">male </option>
+</select>
+<input type="hidden" name="on0" value="size">
+<select name="os0">
+  <option value="S">S </option>
+  <option value="M">M </option>
+  <option value="L">L </option>
+  <option value="XL">XL </option>
+  <option value="XXL">XXL </option>
+</select>
+
+<h2>12.50 Euro</h2>
+
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynow_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/de_DE/i/scr/pixel.gif" width="1" height="1">
 </form>
 
 <br><br><br><br><br>
+<br><br><br><br><br>
 <hr>
 
-<p style="font-size:9">
+<p style="font-size:10">
   n3rdshirt is a trademark of Lossen Labs GmbH, Hohenstaufenstrasse 65, 10781 Berlin, Germany, VAT number DE272721721
 </p>
 
